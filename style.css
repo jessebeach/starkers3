@@ -1,0 +1,12 @@
+/*
+Theme Name: Starkers3
+Theme URI: http://elliotjaystocks.com/starkers
+Description: The lovely Starkers, with WordPress 3.0 menu support added and scaffolding styles added. Intended as a temporary fix until the real Starkers for WordPress 3 is released.
+Version: 1.0
+Author: Nathan Carnes
+Author URI: http://carnesmedia.com
+Tags: starkers, naked, clean, basic
+*/
+
+@import "style/css/reset.css";
+@import "style/css/scaffold.css";
