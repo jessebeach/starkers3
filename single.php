@@ -6,7 +6,7 @@
 
 get_header();
 ?>
-
+<div id="main">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<?php previous_post_link('&laquo; %link') ?> | <?php next_post_link('%link &raquo;') ?>
@@ -57,5 +57,6 @@ get_header();
 		<p>Sorry, no posts matched your criteria.</p>
 
 <?php endif; ?>
-
+</div>
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
