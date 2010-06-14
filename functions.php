@@ -17,6 +17,9 @@ if ( function_exists('register_sidebar') ) {
 
 if (function_exists('add_theme_support')) {
 	add_theme_support('nav-menus');
+	add_theme_support('post-thumbnails');
+	set_post_thumbnail_size(50, 50, true);
+	add_image_size('single-post-thumbnail', 630, 300, true);
 }
 
 add_action( 'init', 'register_menus' );

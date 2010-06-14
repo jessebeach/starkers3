@@ -66,3 +66,13 @@ p, ul, ol{
 .copyright{ 
 	float: right;
 }
+
+.post_thumbnail{
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+
+.featured_image{
+	text-align: center;
+	margin-bottom: 20px;
+}
